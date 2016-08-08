@@ -24,8 +24,44 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+          <h2>使用 Capristrano 自動化部屬php程式</h2>
+          <p>EZprice@Steven</p>
+        </section>
+				<section>
+          <h3>要解決的問題</h3>
+          <ul>
+            <li>使用git 管理時需要多幾道手續，使用自動化部屬節省操作步驟。</li>
+            <li>專案對照部屬的伺服器記錄在Cap設定檔中，程式即文件。</li>
+            <li>capristrano 具備將deploy 程式碼回溯道穩定版本的功能。</li>
+          </ul>
+        </section>
+        <section>
+          <section>
+            <h3>實際部屬情形</h3>
+          </section>
+          <section>
+            <h3>加入新的檔案並且push上伺服器</h3>
+            <img src="img/cap1.jpg"  alt=""/>
+          </section>
+          <section>
+            <h3>輸入cap staging deploy，部屬上測試伺服器</h3>
+            <img src="img/cap2.jpg"  alt=""/>
+          </section>
+          <section>
+            <h3>如果要部屬上正是伺服器，cap production deploy</h3>
+          </section>
+          <section>
+            <h3>部屬完結果</h3>
+            <img src="img/cap3.jpg"  alt=""/>
+            <img src="img/cap4.jpg"  alt=""/>
+          </section>
+        </section>
+        <section>
+          <section><h2>回溯(rollback)</h2></section>
+        </section>
+
+
 			</div>
 		</div>
 
